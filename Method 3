@@ -1,0 +1,15 @@
+public class method3 {
+public void addvalue(int a,int b){
+    int sum =a+b;
+  System.out.println("result  "+sum);
+}
+public static void main(String[]args){
+    method3 obj =new method3();
+     obj.addvalue(70,5);
+     obj.addvalue(25, 50);
+
+
+}
+}
+    
+
