@@ -1,0 +1,14 @@
+public class method2 {
+public int addvalue(int a,int b){
+    int sum =a+b;
+    return sum;
+}
+public static void main(String[]args){
+    method2 obj =new method2();
+    int res = obj.addvalue(25,50);
+    System.out.println("result  "+res);
+
+}
+}
+    
+
