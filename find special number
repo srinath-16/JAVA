@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class specialnum {
+    public static void main(String[] args) {
+
+        Scanner sc =new Scanner(System.in);
+        System.out.println("Enter the number n :");
+        int m = sc.nextInt();
+
+        Scanner sc1 =new Scanner(System.in);
+        System.out.println("Enter the number m:");
+        int n = sc1.nextInt();
+        
+        for(int i=m;i<=n;i++){
+
+        int dig1 =i%10;
+        int dig2 =i/10;
+        int sum = dig1+dig2;
+        int product= dig1*dig2;
+        int res= sum+product;
+
+        if(res==i){
+            System.out.println(res);
+            sc.close();
+            sc1.close();
+        }
+
+      }
+        
+    }
+    
+}
+
