@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class greatsnum{
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the first number A:");
+        float A= sc.nextFloat();
+        System.out.println("Enter the second number B:");
+        float B= sc.nextFloat();
+        System.out.println("Enter the third number C:");
+        float C= sc.nextFloat();
+        if (A>B&&A>C){
+            System.err.println("A is greatest value:");
+        }
+        else if(B>A&&B>C){
+            System.out.println("B is greatest value: ");
+            }else{
+                System.out.println("C is greatest value:");
+            }
+        }
+        }
+    
